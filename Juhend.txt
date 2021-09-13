@@ -1,0 +1,34 @@
+Graafilise liidese osa Algoritmide Automaatkontrollile.
+
+
+
+Kasutusjuhend:
+Käivita GUI.java või Main.java
+Vali nimekirjast algoritm
+Vajuta alusta peale
+
+Olemasolevast tekstifailist laetakse üks suvaline järjend lahendamiseks
+"Järjendi seisund" - näitab kuidas järjend hetkel välja näeb
+"Sisesta järgmine samm algoritmis" - Sinna peab kirjutama kuidas järjend näeks välja peale algoritmi järmise sammu tegemist
+
+Vajutades "Kopeeri tühjad lahtrid" peale, kopeeritakse kõik lahtrid mis ei ole täidetud järjendi hetkeseisust
+Lukusta väljad paneb täidetud lahtrid lukku, Vabasta väljad teeb lukust lahti
+
+Kui tehtakse viga, saab vajutada "Eelmine samm" peale, ning programm läheb ühe sisendi võrra tagasi
+Järgmine samm sisestab kirjutatud lahtrid
+
+Lõpeta loob tulemusfaili
+
+Tagasi läheb programmi algseisu ilma tulemusfaili loomata
+
+
+
+#####
+JAR faili tegemine
+
+Avada IntelliJs project
+Võtta lahti Maven menüü ja vajutada "Reload all projects"
+Käivitada maveni menüüs Lifecycle all Install
+
+Luuakse JAR fail projecti root folderis "target" folderisse
+
