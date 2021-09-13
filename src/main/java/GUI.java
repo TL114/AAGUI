@@ -265,8 +265,9 @@ public class GUI extends Application {
         if (meetodiNimi.equals("Too ette kiirmeetodil"))
             writer.write(nimi + ";" + meetodiNimi + ";" + Arrays.toString(lahendatavJärjend) + ";" + tooEtte);
         else writer.write(nimi + ";" + meetodiNimi + ";" + Arrays.toString(lahendatavJärjend));
+        writer.write("\n");
         for (int[] ints : salvestus) {
-            writer.write(Arrays.toString(ints));
+            writer.write(Arrays.toString(ints)+"\n");
         }
         writer.close();
     }
